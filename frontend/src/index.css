@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', sans-serif;
+    background: url("assert/img/background.jpg")
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.title{
+    text-align: center;
+    margin: 40px 0;
+}
+.card{
+    width: 100%;
+    margin-bottom: 20px;
+
+    background: white;
+    border: aliceblue;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.card-title{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.card-content{
+    padding: 10px;
+}
